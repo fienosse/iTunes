@@ -1,0 +1,29 @@
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+.list-group {
+  padding-left: 15px
+}
+
+.img_imagine_dragons {
+  width: 125px;
+}
+
+.albuminfo {
+  text-align: right;
+}
+
+.bio_artiesten {
+  padding-top: 40px;
+}
+
+.bio_twentyonepilots {
+  text-align: right;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
