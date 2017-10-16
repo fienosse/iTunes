@@ -1,14 +1,67 @@
-// Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+@media only screen and (max-width: 576px) {
+   
+    h1 {
+        font-size: 3.2em;
+    }
+    ol {
+        font-size: 11px;        
+    }
+    .img_imagine_dragons {
+        width: 120px;
+    }
+      
+    .img_twenty_one_pilots {
+        width: 120px;
+    }
+      
+    .img_green_day {
+        width: 120px;
+    }
+    .list-group {
+        padding-left: 1px;
+    }
+    
+    p {
+        font-size: 13px;
+    }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+    .icons {
+        width: 40px;
+    }
+}
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+@media only screen and (min-width: 768px) {
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+}
+
+@media only screen and (min-width: 992px) {
+    .img_imagine_dragons {
+        width: 250px;
+    }
+      
+    .img_twenty_one_pilots {
+        width: 250px;
+    }
+      
+    .img_green_day {
+        width: 250px;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    ol {
+        font-size: 1em;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+}

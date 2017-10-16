@@ -1,23 +1,63 @@
 
+@import url('https://fonts.googleapis.com/css?family=Modak');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Concert+One');
+
+body {
+  background-image: url(Images/achtergrond_Mytunes.png);
+  background-size: contain;
+}
+
 h1 {
   text-align: center;
-  padding: 20px;
+  padding: 60px;
+  font-family: modak, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+p {
+  font-family: raleway, sans-serif;
+}
+
+ol {
+  font-family: concert one, sans-serif;
+  font-size: 17px;
+  list-style: none;
+}
+
+li {
+  counter-increment: item;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+}
+
+li:before {
+  margin-right: 10px;
+  content: counter(item);
+  background: #FF414D;
+  border-radius: 100%;
+  color: white;
+  width: 1.7em;
+  height: 1.7em;
+  text-align: center;
+  display: inline-block;
 }
 
 .list-group {
-  padding-left: 15px
+  padding-left: 10px;
 }
 
 .img_imagine_dragons {
-  width: 125px;
+  width: 150px;
 }
 
 .img_twenty_one_pilots {
-  width: 125px;
+  width: 150px;
 }
 
 .img_green_day {
-  width: 125px;
+  width: 150px;
 }
 
 .albuminfo {
@@ -25,13 +65,29 @@ h1 {
 }
 
 .bio_artiesten {
-  padding-top: 40px;
+  padding: 40px 20px;
 }
 
 .bio_twentyonepilots {
   text-align: right;
 }
 
-.selector-for-some-widget {
-    box-sizing: content-box;
-  }
+.eerste_album {
+  margin-top: 60px;
+}
+
+.btn {
+  color: white;
+  font-family: raleway;
+  margin-bottom: 30px;
+}
+
+.icons {
+  width: 70px;
+  margin: 10px;
+  margin-bottom: 40px;
+}
+
+footer {
+  background-color: black;
+}
