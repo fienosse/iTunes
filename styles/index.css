@@ -30,6 +30,7 @@ li {
   counter-increment: item;
   margin-bottom: 5px;
   padding-bottom: 10px;
+  padding: 5px 0;
 }
 
 li:before {
@@ -42,6 +43,10 @@ li:before {
   height: 1.7em;
   text-align: center;
   display: inline-block;
+}
+
+li.clearfix:before {
+  display: inline;
 }
 
 .list-group {
@@ -62,30 +67,40 @@ li:before {
 
 .albuminfo {
   text-align: right;
+  font-size: 1.15em;
+}
+
+.albuminfo_style {
+  font-family: concert one, sans-serif;
 }
 
 .bio_artiesten {
   padding: 40px 20px;
-}
-
-.bio_twentyonepilots {
-  text-align: right;
+  text-align: center
 }
 
 .eerste_album {
-  margin-top: 60px;
+  margin-top: 100px;
 }
 
 .btn {
   color: white;
+  background-color: rgb(179, 179, 179);
+  border: none;
   font-family: raleway;
   margin-bottom: 30px;
+  padding: 10px;
+}
+
+.btn:hover {
+  background-color: #FF414D;
+  color: white;
 }
 
 .icons {
   width: 70px;
   margin: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 footer {

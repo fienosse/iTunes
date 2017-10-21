@@ -29,6 +29,10 @@
     .icons {
         width: 40px;
     }
+
+    .eerste_album {
+        margin-top: 60px;
+      }
 }
 
 @media only screen and (min-width: 768px) {
