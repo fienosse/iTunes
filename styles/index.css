@@ -100,9 +100,14 @@ li.clearfix:before {
 .icons {
   width: 70px;
   margin: 10px;
-  margin-bottom: 60px;
+}
+
+.spotify_icon {
+  margin-bottom: 100px;
 }
 
 footer {
   background-color: black;
+  color: white;
+  text-align: center;
 }
