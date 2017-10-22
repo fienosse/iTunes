@@ -33,6 +33,10 @@
     .eerste_album {
         margin-top: 60px;
       }
+
+    .box_spotify {
+        width: 250px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
